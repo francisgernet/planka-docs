@@ -59,7 +59,7 @@ sudo -u postgres createdb planka
 
 
 
-##### Create a Unix User and test Database acceess and change the password
+##### Create a Unix User and test Database access and change the password
 We need this user later to run planka as non-root user too
 
 ```bash
@@ -77,7 +77,7 @@ Change the database password
 ALTER USER planka PASSWORD 'YOUR_DATABASE_PASSWORD';
 ```
 
-Cloese the database with
+Close the database with
 
 ```bash
 \q
